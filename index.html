@@ -5,43 +5,225 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Logo-Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- <script src="main.js"></script> -->
 </head>
 <body>
     <div class="container">
         <header class="header">
             <div class="wrapper">
-                <a href="index.html" title="logo">
-                    logo
-                </a>
+                <h1>
+                    <a href="index.html" title="logo">
+                        <img src="assets/images/Logo.png" alt="logo"><span>staff</span>
+                    </a>
+
+                </h1>
+                
                 <ul>
-                    <li><a href="#"><img src="assets/images/cart.png" alt="cart"></a></li>
-                    <li><a href="#"><img src="assets/images/Search-icon.png" alt="search"></a></li>
+                    <li><a href="#" title="cart"><i class="fa fa-cart-arrow-down"></i></a></li>
+                    <li><a href="#" title="search"><img src="assets/images/Search-icon.png" alt="search"></a></li>
                 </ul>
             </div>
         </header>
+
+        <!-- aside part starts here xontains product name in list -->
+
         <aside>
             <div class="wrapper">
                 <nav class="navigation">
                     <ul>
-                        <li><a href="#">shirt</a></li>
-                        <li><a href="#">jeans</a></li>
-                        <li><a href="#">kurta</a></li>
-                        <li><a href="#">dresses</a></li>
-                        <li><a href="#">jackets</a></li>
+                        <li><a href="#" title="shirt">shirt</a></li>
+                        <li><a href="#" title="jeans">jeans</a></li>
+                        <li><a href="#" title="kurta">kurta</a></li>
+                        <li><a href="#" title="dresses">dresses</a></li>
+                        <li><a href="#" title="jackets">jackets</a></li>
                     </ul>
                 </nav>
             </div>
         </aside>
+
+        <!-- Aside part completed here -->
+ 
+        <!-- main part starts here with containing banner subscribe and contacts  -->
+
         <main>
-            
+            <div class="wrapper">
+                <!-- banner part of the main section is starts contains image and shop now option-->
+                <div class="banner">
+                    <img src="https://picsum.photos/800/500/?random" alt="banner image">
+                    <div class="collection">
+                        <p>New arrivals</p>
+                        <h2>collection 2016</h2>
+                        <a href="#" title="shop now">shop now</a>
+                    </div>
+                </div>
+                <!-- banner section completes -->
+
+                <!-- products section opens, which contains the divs for each -->
+
+                <div class="products">
+                    <div class="wrapper">
+                        <p>8 items</p>
+                        <div class="product-jeans product-1">
+                            <img src="https://picsum.photos/50/100/?random" alt="ripped skinny jeans">
+                            <p>ripped skinny jeans</p>
+                            <p>$24.99</p>
+                        </div>
+                        <div class="product-jeans product-2">
+                            <img src="https://picsum.photos/50/100/?random" alt="mega skinny jeans">
+                            <p>mega skinny jeans</p>
+                            <p>$19.99</p>
+                        </div>
+                        <div class="product-jeans product-3">
+                            <img src="https://picsum.photos/50/100/?random" alt="washed skinny jeans">
+                            <p>washed skinny jeans</p>
+                            <p>$20.99</p>
+                        </div>
+                        <div class="product-jeans product-4">
+                            <img src="https://picsum.photos/50/100/?random" alt="vintage skinny jeans">
+                            <p>vintage skinny jeans</p>
+                            <p>$22.99</p>
+                        </div>
+                        <div class="product-jeans product-5">
+                            <img src="https://picsum.photos/50/100/?random" alt="mega ripped jeans">
+                            <p>mega ripped jeans</p>
+                            <p>$24.99</p>
+                        </div>
+                        <div class="product-jeans product-6">
+                            <img src="https://picsum.photos/50/100/?random" alt="ripped slkinny jeans">
+                            <p>ripped slkinny jeans</p>
+                            <p>$24.99</p>
+                        </div>
+                        <div class="product-jeans product-7">
+                            <img src="https://picsum.photos/50/100/?random" alt="ripped skinny jeans">
+                            <p>ripped skinny jeans</p>
+                            <p>$24.99</p>
+                        </div>
+                        <div class="product-jeans product-8">
+                            <img src="https://picsum.photos/50/100/?random" alt="ripped skinny jeans">
+                            <p>ripped skinny jeans</p>
+                            <p>$24.99</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- products section completed -->
+                
+                <!-- subscribe section starts contains the subscribe form and labels -->
+
+                <div class="subscribe">
+                    <div class="wrapper">
+                        <h3>subscribe</h3>
+                        <form action="#" method="GET">
+                            <label for="mail">to get special offers and <span>vip</span> treatments</label>
+                            <input type="text" id="mail" placeholder="enter e-mail">
+                            <button type="submit">subscribe</button>
+                        </form>
+                    </div>
+                </div>
+                <!-- subscribe section completed -->
+
+                <!-- enquires section opens, it contains different divs like contact, about and store -->
+                <div class="enquires">
+                    <div class="wrapper">
+                        <!-- contact div starts from here contains enquiry form -->
+                        <div class="contact">
+                            <h4>contact</h4>
+                            <p>questions? go ahead</p>
+                            <form action="#" method="get">
+                                <input type="text"/>
+                                <input type="email"/>
+                                <input type="text"/>
+                                <input type="text"/>
+                                <button type="submit">
+                                    send
+                                </button>
+                            </form>
+                        </div>
+                        <!-- About us div start here -->
+                        <div class="about">
+                            <h4>about</h4>
+                            <ul>
+                                <li><a href="">about us</a></li>
+                                <li><a href="#">we are hiring</a></li>
+                                <li><a href="#">support</a></li>
+                                <li><a href="#">find store</a></li>
+                                <li><a href="#">shipment</a></li>
+                                <li><a href="#">payment</a></li>
+                                <li><a href="#">gift card</a></li>
+                                <li><a href="#">return</a></li>
+                                <li><a href="#">help</a></li>
+                            </ul>
+                        </div>
+                        <div class="store-accept">
+                            <div class="store">
+                                <h4>
+                                    store
+                                </h4>
+                                <ul>
+                                    <li>
+                                        company name
+                                    </li>
+                                    <li>
+                                        <a href="tel:5551234567">
+                                            Call (555)123-4567
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="mailto:ex@mail.com">
+                                            ex@mail.com
+                                        </a>
+                                    </li>
+                                
+                                </ul>
+                                <h4>
+                                    store
+                                </h4>
+                                <p>
+                                    company name
+                                </p>
+                                <a href="tel:5551234567">
+                                    Call (555)123-4567
+                                </a>
+                                
+                            </div>
+                            <div class="accept">
+                                <h4>
+                                    we accept
+                                </h4>
+                                <ul>
+                                    <li>
+                                        <a href="#" title="amex">
+                                            amex
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="credit card">
+                                            credit card
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="social-icon">
+
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
         </main>
+        <!-- main part completes here -->
+
+
+        <!-- footer part is starting from here contains powered by only -->
         <footer class="footer">
             <div class="power">
                 <p>powered by <a href="index.html" title="home">w3.css</a></p>
             </div>
         </footer>
+        <!-- footer completed -->
     </div>
 </body>
 </html>
