@@ -102,10 +102,7 @@ header ul a:hover
     color: #2B4ADC
 }
 
-h4
-{
-    color: brown;
-}
+
 
 /* main part styling here */
 main
@@ -215,6 +212,11 @@ main
     height: 15px;
     margin: 5px 15px;
 }
+.subscribe input::placeholder
+{
+    text-transform: capitalize;
+    color: #222426;
+}
 
 .subscribe button
 {
@@ -226,12 +228,76 @@ main
     text-transform: capitalize;
 
 }
+
+/* subscribe part is completed */
+
+.enquires
+{
+    background-color: #F7EDED;
+    /* position: relative; */
+    width:100%;
+    /* marginpx; */
+    vertical-align: top;
+}
+
+
+.enquires h4
+{
+    position: relative;
+    color: #848BAD;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.contact
+{
+    padding:1%; 
+    vertical-align: top;
+    display: inline-block;
+    width: 30%;
+}
+.contact input{
+    width: 90%;
+    margin: 10px 0px;
+}
+.contact button{
+    color: #fff;
+    background-color: #000;
+    text-transform: uppercase
+    padding: 15px;
+    border:none;
+    width: 90%;
+    margin: 5px 0px;
+}
+.about
+{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+.enquires ul
+{
+    list-style: none;
+}
+
+.enquires li a
+{
+    padding: 5px;
+    color:#000;
+    text-transform: capitalize;
+    /* text-decoration: none; */
+}
+.store-accept
+{
+    vertical-align: top;
+    display: inline-block;
+    width: 33%;
+}
+
 /* footer style are here */
 footer
 {
     text-align: center;
     background-color: #222426;
-
     font-size: 20px;
     color: #fff;
 }
